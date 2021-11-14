@@ -64,6 +64,7 @@ async function run() {
             res.json({ admin: isAdmin })
 
         })
+
         // post an appointment
         app.post("/appointments", async (req, res) => {
 
